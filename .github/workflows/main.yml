@@ -18,4 +18,4 @@ jobs:
           pip install -r requirements.txt
       - name: Run Unit Tests
         run: |
-          python -m pytest
+          pytest CI-CD-pwskills-nov/
